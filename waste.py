@@ -15,9 +15,9 @@ lst = [(255,255,255)]
 def write_name(col):
     speed(0)
     color(lst[0])
-    setpos(0,-40)
+    setpos(0,-30)
     color(col)
-    write("DIE\nMF!",align='center',font=('Arial',26,'normal'))
+    write("BIG COLOR",align='center',font=('Arial',26,'normal'))
     color(lst[0])
     setpos(0,-200)
     lst.pop(0)
